@@ -20,15 +20,15 @@
 
 1. リポジトリをクローンまたはダウンロード
 ```bash
-git clone git@github.com:9696nm/ClipShotSaver.git
+$ git clone git@github.com:9696nm/ClipShotSaver.git
 ```
 2. 必要なパッケージをインストール:
 ```bash
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 3. ビルドファイルを起動:
 ```bash
-python build.py
+$ python build.py
 ```
 ビルドされたファイルは`dist`フォルダに生成されます。
 ```bash
@@ -41,7 +41,7 @@ ScreenshotSaver.exe
 - GUIでScreenshotSaver.exeを実行
 または
 ```bash
-cd dist
+$ cd dist
 ScreenshotSaver.exe
 ```
    - 設定画面を閉じても動作は継続します
@@ -59,7 +59,7 @@ ScreenshotSaver.exe
    - 自動保存をオンにすることで手動で保存する必要が無くなります
    - 設定は自動的に保存され、次回起動時も維持されます
 
-実行ファイルは'アプリケーションの終了'を選択するまで終了しません。 ご注意を
+実行ファイルは`アプリケーションの終了`を選択するまで終了しません。 ご注意を
 
 ## ライセンス
 
